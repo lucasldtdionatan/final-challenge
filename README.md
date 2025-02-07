@@ -37,5 +37,5 @@ poetry install
 4 - Execute the server api:
 
 ```
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
