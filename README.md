@@ -35,7 +35,7 @@ poetry install
 ```
 
 4 - Execute the server api:
-
+###### If you execute the project locally without docker, you need a postgres server running and configured in .env
 ```
 uvicorn src.main:app --reload
 ```
